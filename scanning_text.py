@@ -1,3 +1,6 @@
+"""Reads a line of text.
+Outputs number of letters, number of words,
+and number of recurrences of each letter"""
 text = input("Enter a single line of text:\n")
 alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 alpha_num = {}
@@ -12,7 +15,7 @@ for token in text:
     else:
         num_token += 1
 print("The line contains {:d} letters.".format(num_letters))
-print("The line contains {:d} string tokens.".format(num_token))
+print("The line contains {:d} words.".format(num_token))
 print("The frequency of each letter is")
 for letter in alphabet:
     if alpha_num[letter] != 0:

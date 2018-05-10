@@ -1,3 +1,4 @@
+"""Prints a triangle based on number of rows"""
 print("Welcome to the Game of Triangle!")
 rows = input("Enter a number of rows for the triangle:  ")
 while True:

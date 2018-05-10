@@ -1,3 +1,4 @@
+"""Calculates total amount from quantity and price"""
 q = input("Please enter the Quantity desired: ")
 p = input("Please enter the Unit price: $")
 t = int(p) * int(q)

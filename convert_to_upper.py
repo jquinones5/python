@@ -1,3 +1,4 @@
+"""Uppercases a letter."""
 s = input("Enter a letter: ")
 s = s[0]
 while not s.isalpha():

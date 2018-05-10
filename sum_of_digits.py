@@ -1,3 +1,4 @@
+"""Calculates the sum of a numbers digit"""
 integer = int(input("Enter an integer: "))
 found_n = False
 x = integer
